@@ -1,0 +1,25 @@
+*{
+    width: 100%;
+}
+.todoitem{
+    display: flex;
+    left:10px;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 50px;
+    height: 40px;
+    border-radius: 12px;
+    
+}
+.todoitem>p{
+    flex:1;
+    margin-left:10px;
+    
+}
+.checkbox{
+    width: 10% !important;
+}
+.todoitem--done{
+    text-decoration: line-through;
+}
