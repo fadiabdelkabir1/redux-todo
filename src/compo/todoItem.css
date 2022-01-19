@@ -23,3 +23,9 @@
 .todoitem--done{
     text-decoration: line-through;
 }
+input{
+    background-color: none;
+    border:none;
+    margin-left: 12px;
+    flex:1;
+}

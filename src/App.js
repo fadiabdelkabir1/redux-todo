@@ -3,11 +3,12 @@ import React from 'react';
 import TodoInput from './compo/todoInput';
 import TodoList from './compo/todoList';
 
+
 function App() {
   return (
     <div className="App">
       <div className='appcontainer'>
-        <TodoInput/>
+        <TodoInput />
         <div className='apptodocontainer'>
         <TodoList/>
         </div>
